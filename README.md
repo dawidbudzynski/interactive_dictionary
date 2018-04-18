@@ -1,1 +1,1 @@
-**Simple Python application that returns definitions (from json file) for words entered by user.**
+**A program that generates definitions of English words given by the user**
