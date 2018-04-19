@@ -52,7 +52,6 @@ def dictionary():
             return render_template('form_wrong.html')
         result = translate(user_word)
         if result[0] == 'wrong':
-            print(result)
             return render_template("result_wrong_input.html", user_word=user_word, result=result)
         return render_template("result.html", user_word=user_word, result=result)
 
