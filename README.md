@@ -3,7 +3,7 @@
 **Simple Flask app that generates definitions of English words given by the user**
 
 **Link to the website:**
-**https://dawidbudzynski.github.io/interactive_map_folium/**
+**https://interactivedictionary.herokuapp.com/**
 
 **Libraries used:**
 - Flask
