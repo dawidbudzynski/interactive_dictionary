@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h4>Result for : {{ user_word }}</h4>
+    <ul>
+        {% for number, definition in result %}
+            <li>{{ number }} {{ definition }}</li>
+        {% endfor %}
+    </ul>
+    <button class="btn btn-secondary">
+        <a href="{{ url_for('dictionary') }}">Next search</a>
+    </button>
+{% endblock %}

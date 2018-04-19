@@ -1,0 +1,21 @@
+.container-flex {
+    background-color: lightslategrey;
+}
+.header {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.content {
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}

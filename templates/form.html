@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form method="post">
+        <div class="form-group">
+            <label for="my_word_input">Enter word you are looking for</label>
+            <input type="text" class="form-control" id="my_word_input" aria-describedby="emailHelp"
+                   placeholder="Enter word" name="word">
+        </div>
+        <button type="submit" class="btn btn-secondary">Search</button>
+    </form>
+{% endblock %}
+

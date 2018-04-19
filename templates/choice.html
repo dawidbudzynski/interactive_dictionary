@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h4>Did you mean: {{  }}</h4>
+    <ul>
+        {% for number, definition in result %}
+            <li>{{ number }} {{ definition }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('dictionary') }}">Next search</a>
+{% endblock %}
