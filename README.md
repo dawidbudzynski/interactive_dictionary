@@ -1,13 +1,19 @@
 # Interactive dictionary 
 
-**Simple Flask app that generates definitions of English words given by the user**
+## General info
+Simple Flask app that generates definitions of English words given by the user
 
-**Link to the website:**
-**https://interactivedictionary.herokuapp.com/**
+## Technologies
+* Python
+* Flask
 
-**Libraries used:**
-- Flask
+## Setup
+To run this project, install required libraries using pip:
 
-**Requirements:**
-- Python 3.5+
-- Flask 0.12.2
+```
+$ pip install -r requirements.txt
+$ python main_app.py
+```
+
+## Demo
+### https://interactivedictionary.herokuapp.com/
